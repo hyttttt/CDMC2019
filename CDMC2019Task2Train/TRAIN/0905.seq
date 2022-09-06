@@ -1,0 +1,2 @@
+execve mmap2 cacheflush cacheflush readlink cacheflush mmap2 cacheflush cacheflush cacheflush mprotect mmap2 cacheflush mprotect mmap2 brk open mmap2 close munmap brk brk set_tls ioctl ioctl clone exit_group EXIT
+gettimeofday getppid times prctl chdir fcntl64 fcntl64 socket connect close fcntl64 fcntl64 socket connect close fcntl64 fcntl64 socket connect close fcntl64 fcntl64 socket connect close fcntl64 fcntl64 socket connect close close write exit_group EXIT

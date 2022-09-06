@@ -1,0 +1,6 @@
+execve ioctl ioctl fork brk brk write write fork time fork exit EXIT
+open ioctl brk brk read read close fcntl fcntl socket connect close fcntl fcntl socket connect close fcntl fcntl socket connect close close write write fork time fork write SIGCHLD exit EXIT
+open open exit EXIT
+open rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep brk open fstat fcntl getdents64 getdents64 time time time time time time time time time time time time time time time time time time time time time time time SIGSEGV KILL
+open open write exit EXIT
+open rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep open fstat fcntl getdents64 getdents64 time time time time time time time time time time time time time time time time time time time time time time time SIGSEGV KILL

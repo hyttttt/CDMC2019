@@ -1,0 +1,25 @@
+execve ioctl ioctl unlink time getpid getppid times prctl socket connect getsockname open read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read read close ioctl close time getpid time getpid getppid times fork wait4 SIGCHLD write exit EXIT
+fork write SIGCHLD exit EXIT
+chdir rt_sigaction fork write exit EXIT
+socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork write exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask

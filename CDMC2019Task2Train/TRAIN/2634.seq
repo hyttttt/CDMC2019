@@ -1,0 +1,2 @@
+execve ioctl ioctl time getpid prctl fork exit EXIT
+rt_sigaction setsid chdir brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk brk socket connect exit EXIT

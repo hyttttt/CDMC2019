@@ -1,0 +1,26 @@
+execve brk brk set_tls ioctl ioctl prctl gettimeofday getpid gettimeofday clone wait4 SIGCHLD exit_group EXIT
+clone exit_group EXIT
+chdir setuid32 setresuid32 clone rt_sigaction clone SIGCHLD clone exit_group EXIT
+gettimeofday SIGSEGV KILL
+socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction nanosleep clone exit_group EXIT
+close socket fcntl64 fcntl64 connect _newselect getsockopt rt_sigaction

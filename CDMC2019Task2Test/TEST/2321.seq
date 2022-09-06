@@ -1,0 +1,8 @@
+execve ioctl ioctl rt_sigaction rt_sigaction rt_sigaction fork rt_sigaction rt_sigaction wait4 SIGCHLD rt_sigaction rt_sigaction rt_sigaction prctl time getpid time getpid fork wait4 SIGCHLD exit EXIT
+rt_sigaction rt_sigaction rt_sigaction execve set_thread_area set_tid_address open open fcntl64 fstat64 read mmap2 mmap2 close mprotect prctl getuid getpid rt_sigprocmask rt_sigaction rt_sigaction getppid uname stat64 stat64 rt_sigaction rt_sigaction rt_sigaction rt_sigaction rt_sigaction wait4 write exit_group EXIT
+fork exit EXIT
+chdir setuid setresuid rt_sigaction fork exit EXIT
+socket fcntl fcntl connect _newselect rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect

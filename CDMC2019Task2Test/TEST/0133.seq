@@ -1,0 +1,26 @@
+execve ioctl ioctl prctl gettimeofday getpid gettimeofday getpid fork wait4 SIGCHLD exit EXIT
+fork exit EXIT
+chdir setuid32 setresuid32 fork rt_sigaction SIGCHLD fork exit EXIT
+gettimeofday SIGSEGV KILL
+socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigaction

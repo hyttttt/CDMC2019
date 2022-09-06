@@ -1,0 +1,18 @@
+execve open mmap mmap cacheflush mprotect readlink cacheflush mmap mmap cacheflush cacheflush mprotect mmap cacheflush mprotect mmap brk mmap close munmap ioctl ioctl prctl time getpid time getpid unlink fork wait4 SIGCHLD exit EXIT
+fork exit EXIT
+chdir setuid setresuid rt_sigaction fork exit EXIT
+socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep fork exit EXIT
+close socket fcntl fcntl connect _newselect getsockopt rt_sigprocmask rt_sigaction rt_sigprocmask

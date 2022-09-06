@@ -1,0 +1,2 @@
+execve ioctl ioctl getpid getrlimit setrlimit rt_sigaction rt_sigaction rt_sigaction rt_sigprocmask rt_sigprocmask brk brk fork exit EXIT
+getpid time getpid getppid open open open socket open ioctl brk read read close open ioctl read read close socket connect send poll recv close ioctl time time connect rt_sigprocmask rt_sigaction rt_sigprocmask nanosleep time connect setsockopt setsockopt setsockopt write

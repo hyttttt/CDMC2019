@@ -1,0 +1,34 @@
+*This IoT malware classification 2019 dataset is provided by Taiwan Information Security Center (TWISC). 
+
+The aim of this task is to classify IoT malware. The features provided to perform the classification 
+are the sequence of system calls captured during the runtime of malware in an sandbox environment. 
+The dataset contains two parts:
+•	TRAINING: 4167 formatted sequences of system calls, labeled by the type of the malware. 
+•	TESTING: 4275 files without known class labels.
+
+NOTE the following difference between the training and test sets. For the training set, the label of each 
+sample (find detail information of a sample file below) is provided in the label file, 
+whilst the TEST.label file for competition evaluation is preserved for future use. 
+
+This dataset consists of 8442 samples generated following the procedure below. 
+First, a collection of potentially malicious Linux programs in CEF format are collected from various sources. 
+Then, each of these programs is executed in an sandboxed environment hosted by an emulator that provides 
+the required runtime environment for it. During the runtime, the strace command is used to monitor and 
+record the interactions between the processes initialized by the program and the Linux kernel. 
+This process yields a log file that contains lines of system calls. On each line, strace 
+records the time stamp, the invoked system call, as long as parameters and results of the calls. 
+These log files are parsed and reformatted in a simplified format as in the .seq files. 
+The title of a .seq file indicates the sample (i.e., a malicious program) index in the dataset. 
+There might be multiples lines in a .seq file, with each line stands for the sequence of system calls 
+invoked by a particular process initialized by the malware. The system call in each line are 
+presented in ascending order of the function call time. The processes are presented in ascending 
+order of the creation time.
+
+All the .seq files used for training a prediction model can be found in the "TRAIN" folder. 
+All the .seq file used for evaluating a prediction model can be found in the "TEST" folder. 
+Along with the .seq file, there is also a TRAIN.label file provided in the following format. 
+The TRAIN.label is a comma-separated values file. The first column is the index of the 
+sample in the training set, and the second column presents the class label of the corresponding 
+sample. For instance,  "1111,5" indicate the number 1111 sample (i.e. file 1111.seq)
+in the TRAIN folder belongs to class 5. We preserve the lexical meaning of the labels for 
+fairness reason. 

@@ -1,0 +1,3 @@
+execve ioctl ioctl prctl time getpid time getpid getppid times open open open open open open open fork wait4 SIGCHLD write exit EXIT
+fork write exit EXIT
+chdir rt_sigaction socket fcntl fcntl connect _newselect getsockopt fcntl fcntl _newselect recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv recv brk brk _newselect _newselect _newselect

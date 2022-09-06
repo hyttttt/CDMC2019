@@ -1,0 +1,2 @@
+execve ioctl ioctl fork exit EXIT
+gettimeofday getpid getppid brk brk open open open socket open ioctl brk read read close stat open ioctl read read close uname socket connect send poll recv close ioctl gettimeofday gettimeofday connect rt_sigaction nanosleep gettimeofday connect setsockopt setsockopt setsockopt write _newselect recv write _newselect recv

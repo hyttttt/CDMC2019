@@ -1,0 +1,4 @@
+execve ioctl ioctl access time getpid time getpid fork wait4 SIGCHLD exit EXIT
+fork exit EXIT
+write write fork exit EXIT
+rt_sigaction rt_sigaction setpgid setsid setuid setresuid rt_sigaction open ioctl brk brk read read close open ioctl read read close socket connect send poll recv close socket fcntl fcntl connect _newselect rt_sigprocmask rt_sigaction nanosleep rt_sigprocmask close open ioctl read read close socket connect send poll recv close socket fcntl fcntl connect _newselect rt_sigprocmask rt_sigaction nanosleep rt_sigprocmask close open ioctl read read close socket connect send poll recv close socket fcntl fcntl connect _newselect rt_sigprocmask rt_sigaction nanosleep rt_sigprocmask close open ioctl read read close socket connect send poll recv close socket fcntl fcntl connect

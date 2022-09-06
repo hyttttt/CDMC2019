@@ -1,0 +1,4 @@
+execve ioctl ioctl access gettimeofday getpid gettimeofday getpid fork wait4 SIGCHLD exit EXIT
+fork exit EXIT
+write write fork exit EXIT
+rt_sigaction rt_sigaction setpgid setsid setuid32 setresuid32 rt_sigaction brk brk open ioctl brk read read close stat open ioctl read read close uname socket connect send poll recv close socket fcntl fcntl connect _newselect rt_sigaction rt_sigprocmask nanosleep rt_sigprocmask close open ioctl read read close stat socket connect send poll recv close socket fcntl fcntl connect _newselect rt_sigaction rt_sigprocmask nanosleep rt_sigprocmask close open ioctl read read close stat socket connect send poll recv close socket fcntl fcntl connect _newselect rt_sigaction rt_sigprocmask nanosleep rt_sigprocmask close open ioctl read read close stat socket connect send poll recv close socket fcntl fcntl connect

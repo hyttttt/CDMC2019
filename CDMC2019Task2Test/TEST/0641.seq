@@ -1,0 +1,4 @@
+uname brk brk set_tls set_tid_address set_robust_list futex futex rt_sigaction rt_sigaction rt_sigprocmask ugetrlimit readlink brk brk readlink getcwd rt_sigaction rt_sigaction rt_sigprocmask clone wait4 rt_sigaction rt_sigprocmask SIGCHLD rt_sigaction rt_sigaction rt_sigprocmask clone
+execve rt_sigaction
+mmap2 close mprotect mprotect getuid32 getpid rt_sigaction open open fcntl64 fstat64 read mmap2 mprotect mprotect clock_gettime open
+rt_sigaction rt_sigaction rt_sigprocmask execve set_tls set_tid_address open open fcntl64 fstat64 read mmap2 prctl rt_sigprocmask rt_sigaction getppid uname stat64 stat64 rt_sigaction rt_sigaction rt_sigaction rt_sigaction stat64 stat64 stat64 stat64 execve set_tls set_tid_address mmap2 close prctl getuid32 stat64 ioctl fchmod fchown32 open readv readv close writev close rename exit_group EXIT

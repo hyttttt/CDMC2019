@@ -1,0 +1,2 @@
+execve open mmap mmap cacheflush mprotect readlink cacheflush mmap mmap cacheflush cacheflush mprotect mmap cacheflush mprotect mmap brk mmap close munmap ioctl ioctl rt_sigaction rt_sigaction socket connect getsockname close socket fcntl fcntl bind listen fork write exit EXIT
+open ioctl brk brk read read close prctl time getpid open ioctl read read close socket

@@ -1,0 +1,2 @@
+execve mmap cacheflush readlink cacheflush mmap cacheflush cacheflush mprotect mmap cacheflush mprotect mmap brk munmap ioctl ioctl fork exit EXIT
+time getpid getppid times prctl chdir fcntl fcntl socket connect close fcntl fcntl socket connect close fcntl fcntl socket connect close fcntl fcntl socket connect close fcntl fcntl socket connect close close write exit EXIT
