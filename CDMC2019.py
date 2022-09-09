@@ -1,3 +1,4 @@
+from collections import defaultdict
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import cross_val_score
@@ -125,53 +126,56 @@ def TFIDF():
 
     X.append(sentence)
 
+  tv.fit_transform(X)
   X = tv.fit_transform(X)
   X = X.toarray()
   X = np.array(X)
 
+  max_idf = max(tv.idf_)
+  idf_weight = defaultdict(lambda: max_idf, [(word, tv.idf_[i]) for word, i in tv.vocabulary_.items()])
+
   Y = labels.label
-  Y.ravel()
 
   report = test(X, Y)
   print('【TF-IDF】')
   print(report)
   print("")
 
-def W2V_CBOW():
+  return idf_weight
+
+def one():
+  return 1.0
+
+def W2V(sg=0, vector_size=100, window=5, cbow_mean=1, tfidf_weight=defaultdict(one)):
   docs = MyCorpus()
   labels = MyLabels()
 
-  
-  print("Word2Vec CBOW preparing")
-  cbow_model = Word2Vec(sentences=docs, sg=0, vector_size=50, window=19, cbow_mean=1)
+  if sg==0:
+    type = "CBOW"
+  else:
+    type = "SG"
+
+  if tfidf_weight['a random word'] == 1.0:
+    docVec_type = "mean"
+  else:
+    docVec_type = "tfidf_weighted"
+
+  print(f"Word2Vec {type} preparing")
+  cbow_model = Word2Vec(sentences=docs, sg=sg, vector_size=vector_size, window=window, cbow_mean=cbow_mean)
   docVec = []
   for doc in docs:
-    vecs = np.array([cbow_model.wv[word] for word in doc if word in cbow_model.wv])
+    vecs = np.array([cbow_model.wv[word] * tfidf_weight[word] for word in doc if word in cbow_model.wv])
     docVec.append(np.mean(vecs, axis=0))
     
   report = test(docVec, labels.label)
-  print('【W2V】【CBOW】')
+  print(f'【W2V】【{type}】【{docVec_type}】')
   print(report)
-  print("")
-  
+  print("")      
 
-def W2V_SG():
-  docs = MyCorpus()
-  labels = MyLabels()
+tfidf_weight = TFIDF()
 
-  print("Word2Vec SG preparing")
-  sg_model = Word2Vec(sentences=docs, sg=1, vector_size=50, window=27)
-  docVec = []
-  for doc in docs:
-    vecs = np.array([sg_model.wv[word] for word in doc if word in sg_model.wv])
-    docVec.append(np.mean(vecs, axis=0))
-  
-  report = test(docVec, labels.label)
-  print(f'【W2V】【SG】')
-  print(report)
-  print("")
-      
-    
-#W2V_CBOW()
-W2V_SG()
-#TFIDF()
+W2V(sg=0, vector_size=50, window=19)
+W2V(sg=0, vector_size=50, window=19, tfidf_weight=tfidf_weight)
+
+W2V(sg=1, vector_size=50, window=27)
+W2V(sg=1, vector_size=50, window=27, tfidf_weight=tfidf_weight)
