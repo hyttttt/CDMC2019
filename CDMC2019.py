@@ -7,6 +7,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from gensim.models.word2vec import Word2Vec
 from gensim import utils
+import matplotlib as plt
 
 class MyCorpus:
   '''An iterator that yields lists of str'''
@@ -35,8 +36,9 @@ class MyCorpus:
       yield i   
 
 class MyLabels:
-  label = pd.read_csv(r"C:\Users\88696\Desktop\NTUST\專題\CDMC2019\CDMC2019Task2Train.csv").drop(["no"], axis=1).to_numpy() 
-  label.ravel()
+  label = pd.read_csv(r"C:\Users\88696\Desktop\NTUST\專題\CDMC2019\CDMC2019Task2Train.csv").drop(["no"], axis=1) 
+  label = label.to_numpy()
+  label = np.ravel(label)
   print(f'Label collecting 100%')
 
 
@@ -139,8 +141,9 @@ def W2V_CBOW():
   docs = MyCorpus()
   labels = MyLabels()
 
+  
   print("Word2Vec CBOW preparing")
-  cbow_model = Word2Vec(sentences=docs, sg=0, vector_size=250, window=10, cbow_mean=1)
+  cbow_model = Word2Vec(sentences=docs, sg=0, vector_size=50, window=19, cbow_mean=1)
   docVec = []
   for doc in docs:
     vecs = np.array([cbow_model.wv[word] for word in doc if word in cbow_model.wv])
@@ -150,26 +153,25 @@ def W2V_CBOW():
   print('【W2V】【CBOW】')
   print(report)
   print("")
+  
 
 def W2V_SG():
   docs = MyCorpus()
   labels = MyLabels()
 
   print("Word2Vec SG preparing")
-  sg_model = Word2Vec(sentences=docs, sg=1, vector_size=250, window=10)
+  sg_model = Word2Vec(sentences=docs, sg=1, vector_size=50, window=27)
   docVec = []
   for doc in docs:
     vecs = np.array([sg_model.wv[word] for word in doc if word in sg_model.wv])
     docVec.append(np.mean(vecs, axis=0))
   
   report = test(docVec, labels.label)
-  print('【W2V】【SG】')
+  print(f'【W2V】【SG】')
   print(report)
   print("")
       
     
 #W2V_CBOW()
-#W2V_SG()
+W2V_SG()
 #TFIDF()
-l = MyLabels()
-print(l.label.size)
