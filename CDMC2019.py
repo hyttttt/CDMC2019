@@ -14,7 +14,7 @@ class MyCorpus:
   '''An iterator that yields lists of str'''
 
   docs = []
-  for i in range(1, 4168):  #4168
+  for i in range(1, 2):  #4168
     print(f'\rData collecting {int(i / 4168 * 100)}%', end="")
 
     i = "%04d" % i
@@ -30,6 +30,7 @@ class MyCorpus:
 
       docs.append(doc)
 
+  print(docs)
   print(f'\rData collecting 100%')
 
   def __iter__(self):
